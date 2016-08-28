@@ -1,6 +1,6 @@
 # Satet
 
-Platformer built in Unity for LD36 (Ancient Technology).
+Platformer built with Unity for LD36 (Ancient Technology).
 
 # License
 

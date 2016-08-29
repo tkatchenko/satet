@@ -1,6 +1,14 @@
 # Satet
 
-Platformer built with Unity for LD36 (Ancient Technology).
+![Screenshot](https://raw.githubusercontent.com/tkatchenko/satet/master/screenshot.png)
+
+Built with Unity for LD36 (Ancient Technology).
+
+Platformer, female protagonist, bow and arrows, high difficulty. 
+
+Z, X, Left, Right
+
+[Play](http://satet.s3-website-ap-southeast-2.amazonaws.com) (WebGL)
 
 # License
 

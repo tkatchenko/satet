@@ -56,18 +56,16 @@ public class Player : MonoBehaviour {
     if (collider.gameObject.layer == LayerMask.NameToLayer("Death")) {
       Die();
     }
+
+    if (collider.gameObject.tag == "Enemy") {
+      Die();
+    }
   }
 
   void onTriggerExitEvent(Collider2D collider) {
   }
 
   #endregion
-
-  void OnCollisionEnter2D(Collision2D coll) {
-    if (coll.gameObject.tag == "Enemy") {
-      Die();
-    }
-  }
 
   void Update() {
     if (_controller.isGrounded)
